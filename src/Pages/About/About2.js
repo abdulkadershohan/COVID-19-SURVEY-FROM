@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const About2=props=>{
     return(
         <>
-            <div className="card text-center shadow">
+            <div className="a-card text-center shadow">
                 <div className="overflow">
                     <img src={props.imgsrc} className={"card-img-top"} alt="ImageUpdate"/>
                 </div>

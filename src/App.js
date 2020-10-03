@@ -10,6 +10,8 @@ import PageNotFound from './Pages/Page Not Found/PageNotFOund'
 import SurveyContent from "./Survey/Survey Content/SurveyContent";
 import Support from "./Pages/Support/Support";
 import FooterPagePro from "./Components/Footer/FooterPage";
+import UsefulVideos from "./Pages/YoutubeVideos/UsefulVideos";
+import Team from "./Pages/About/About";
 
 function App() {
     return (
@@ -26,15 +28,17 @@ function App() {
                     <Route exact path='/survey' component={Survey} />
                     <Route exact path='/about' component={About} />
                     <Route exact path='/survey/content' component={SurveyContent} />
+                    <Route exact path='/videos' component={UsefulVideos} />
+                    <Route exact path='/team' component={Team} />
                     <Route exact path='/support' component={Support}/>
 
                     <Route component={PageNotFound}/>
                 </Switch>
-
+                <div className="footer">
+                    <FooterPagePro/>
+                </div>
             </Router>
-            <div className="footer">
-                <FooterPagePro/>
-            </div>
+
 
         </>
     );

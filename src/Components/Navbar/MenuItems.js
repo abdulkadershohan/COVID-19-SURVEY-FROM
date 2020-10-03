@@ -15,8 +15,8 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'ABOUT US',
-        path: '/about',
+        title: 'USEFUL VIDEOS',
+        path: '/videos',
         cName: 'nav-links'
     },
     {

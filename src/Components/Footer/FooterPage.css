@@ -1,23 +1,27 @@
 .a{
-    background-color: wheat;
-
+    font-weight: bold;
+    background-color: gainsboro;
 
 }
-
+.Link{
+    color: #da0f0b;
+}
 .social-icon{
     list-style: none;
 
 }
+.social-icon li{
+    color: green;
+}
 .text-uppercase{
     color: #6d76f7;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
 }
 .about-links{
     text-decoration: none;
 }
-.about-links:hover{
-    color: white;
-
-
-
+.social-icon li:hover{
+    color: #6d76f7;
+    border-style: outset;
+    border-bottom-color: #6d76f7;
 }
