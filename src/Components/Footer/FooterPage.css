@@ -1,0 +1,23 @@
+.a{
+    background-color: wheat;
+
+
+}
+
+.social-icon{
+    list-style: none;
+
+}
+.text-uppercase{
+    color: #6d76f7;
+    font-size: 1.9rem;
+}
+.about-links{
+    text-decoration: none;
+}
+.about-links:hover{
+    color: white;
+
+
+
+}

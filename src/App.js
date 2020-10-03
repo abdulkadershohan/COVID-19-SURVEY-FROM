@@ -9,6 +9,7 @@ import About from './Pages/About/About'
 import PageNotFound from './Pages/Page Not Found/PageNotFOund'
 import SurveyContent from "./Survey/Survey Content/SurveyContent";
 import Support from "./Pages/Support/Support";
+import FooterPagePro from "./Components/Footer/FooterPage";
 
 function App() {
     return (
@@ -29,7 +30,11 @@ function App() {
 
                     <Route component={PageNotFound}/>
                 </Switch>
+
             </Router>
+            <div className="footer">
+                <FooterPagePro/>
+            </div>
 
         </>
     );

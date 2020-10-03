@@ -3,8 +3,6 @@ import './Home.css'
 import * as FiIcons from 'react-icons/fi';
 import UsefulVideos from "./YoutubeVideos/UsefulVideos";
 import CardUiMain from "../../Components/Card/CardUiMain";
-import {MenuItems} from "../../Components/Navbar/MenuItems";
-import {Link} from "react-router-dom";
 
 export default class Home extends Component {
     render() {
@@ -52,6 +50,9 @@ export default class Home extends Component {
                 <div>
                     <UsefulVideos/>
                 </div>
+
+
+
 
             </>
         )
