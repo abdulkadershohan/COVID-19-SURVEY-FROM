@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import './FooterPage.css'
-import {Link} from "react-router-dom";
+
 const FooterPagePro = () => {
     return (
         <div className={"a"}>
@@ -101,6 +101,7 @@ const FooterPagePro = () => {
 
             </div>
         </MDBFooter>
+
 
         </div>
     );

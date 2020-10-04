@@ -13,6 +13,7 @@ import FooterPagePro from "./Components/Footer/FooterPage";
 import UsefulVideos from "./Pages/YoutubeVideos/UsefulVideos";
 import Team from "./Pages/About/About";
 import Developer from "./Pages/About/Developer/Developer";
+import HealthTrips from "./Pages/Health Trips/Health-trips";
 
 function App() {
     return (
@@ -33,7 +34,7 @@ function App() {
                     <Route exact path='/team' component={Team} />
                     <Route exact path='/support' component={Support}/>
                     <Route exact path='/developer-contract' component={Developer}/>
-
+                    <Route exact path='/health-trips' component={HealthTrips}/>
                     <Route component={PageNotFound}/>
                 </Switch>
                 <div className="footer">

@@ -11,13 +11,13 @@
 
 @media screen and (max-width: 960px){
     .warning-message{
-        text-align: start;
+        text-align: center;
         font-size: 1.9rem;
 
 
     }
     .Button{
-        text-align: start;
+        text-align: center;
     }
 
 
