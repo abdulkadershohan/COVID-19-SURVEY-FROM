@@ -4,13 +4,13 @@ import {Link} from "react-router-dom";
  const CardUi=props=>{
      return(
          <>
-            <div className="card text-center shadow">
+            <div className="card-a text-center shadow">
                 <div className="overflow">
-                    <img src={props.imgsrc} className={"card-img-top"} alt="ImageUpdate"/>
+                    <img src={props.imgsrc} className={"c-i-t card-img-top"} alt="ImageUpdate"/>
                 </div>
-               <div className="card-body text-dark">
+               <div className="c-b card-body text-dark">
                    <h4 className="card-title">{props.title}</h4>
-                   <p className="card-text text-secondary">{props.p}</p>
+                   <p className="p-card-text text-secondary">{props.p}</p>
                    <Link to={props.url} className="btn btn-outline-success">Learn More</Link>
                </div>
             </div>

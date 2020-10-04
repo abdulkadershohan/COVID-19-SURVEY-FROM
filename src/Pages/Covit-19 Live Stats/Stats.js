@@ -45,6 +45,7 @@ function Stats(){
                 big="light"
                 text="dark"
                 className="text-center"
+
                 style={{margin:"10px"}}
             >
                 <Card.Img variant={"top"} src={data.countryInfo.flag}/>

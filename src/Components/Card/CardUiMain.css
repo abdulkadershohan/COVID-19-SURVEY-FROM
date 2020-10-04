@@ -1,24 +1,24 @@
 
-.container-fluid {
+.ct-f {
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
-.card{
+.card-a{
     width: 30rem;
 }
-.card:hover{
+.card-a:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,253)!important ;
 }
-.card-body{
+.c-b{
     padding: 3rem 0!important;
 }
-.card-text{
+.p-card-text{
     font-size: 0.9rem;
     padding: 0.4rem 1.9rem;
 
 }
-.container-fluid.row{
+.ct-f.row{
     padding-top: 6rem;
 
 
@@ -26,15 +26,15 @@
 .overflow{
     overflow: hidden;
 }
-.card-img-top{
+.c-i-t{
     transform: scale(1);
     transition: transform 0.5s ease;
 }
-.card-img-top:hover{
+.c-i-t:hover{
     transform: scale(1.8);
 }
 @media screen and (max-width: 960px){
-    .card{
+    .card-a{
         width: 100%;
     }
 

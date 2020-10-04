@@ -27,7 +27,7 @@ const p3=[
 class CardUiMain extends Component {
     render() {
         return (
-                <div className="container-fluid d-flex justify-content-center">
+                <div className="ct-f container-fluid d-flex justify-content-center">
                     <div className="row">
                         <div className="col-md-4">
                             <CardUi imgsrc={image1} title="Health Trips" p={p1} url="/trips"/>

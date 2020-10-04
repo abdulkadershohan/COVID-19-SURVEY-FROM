@@ -13,7 +13,7 @@ const FooterPagePro = () => {
 
             <MDBContainer className="text-center text-md-left">
                 <MDBRow className="my-4">
-                    <MDBCol md="4" lg="4">
+                    <MDBCol md="2" lg="2">
                         <h5 className="text-uppercase mb-4 font-weight-bold">
                             Services
                         </h5>
@@ -21,13 +21,13 @@ const FooterPagePro = () => {
                             <a className="Link text-decoration-none" href="/survey">HEALTH CHECKUP</a>
                         </p>
                         <p>
-                            <a href= "/stats" className="Link text-decoration-none">LIVE UPDATE</a>
+                            <a  href= "/stats" className="Link  text-decoration-none">LIVE UPDATE</a>
                         </p>
 
 
                     </MDBCol>
                     <hr className="clearfix w-100 d-md-none" />
-                    <MDBCol md="2" lg="2" className="ml-auto">
+                    <MDBCol md="3" lg="3" className="ml-auto">
                         <h5 className="text-uppercase mb-4 font-weight-bold">About Us</h5>
                         <ul className="about-links">
                             <p>
@@ -37,16 +37,16 @@ const FooterPagePro = () => {
                                 <a className=" Link text-decoration-none" href="/team">OUR TEAM</a>
                             </p>
                             <p>
-                                <a className="Link text-decoration-none" href="#">DEVELOPER CONTRACT</a>
+                                <a className="Link text-decoration-none" href="/developer-contract">DEVELOPER CONTRACT</a>
                             </p>
 
                         </ul>
                     </MDBCol>
                     <hr className="clearfix w-100 d-md-none" />
-                    <MDBCol md="5" lg="3">
+                    <MDBCol md="5" lg="4">
                         <h5 className="text-uppercase mb-4 font-weight-bold">Address</h5>
                         <p>
-                            <i className="fa fa-home mr-3" /> Mirpur-2 Dhaka,1216, BD
+                            <i className="fa fa-home mr-3" /> Mirpur-2 Dhaka,1216, Bangladesh
                         </p>
                         <p>
                             <i className="fa fa-envelope mr-3" /> covit19.survey@bd.com
@@ -96,7 +96,7 @@ const FooterPagePro = () => {
             <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
                     &copy; {new Date().getFullYear()} Copyright:{" "}
-                    <Link to="/">COVIT-19-SURVEY-FORM</Link>
+                    <a href="/">COVIT-19-SURVEY-FORM</a>
                 </MDBContainer>
 
             </div>

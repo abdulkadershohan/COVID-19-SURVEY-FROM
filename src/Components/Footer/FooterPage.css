@@ -6,6 +6,15 @@
 .Link{
     color: #da0f0b;
 }
+.Link:hover{
+    color: green;
+
+    border-bottom-color: #6d76f7;
+
+
+}
+
+
 .social-icon{
     list-style: none;
 
