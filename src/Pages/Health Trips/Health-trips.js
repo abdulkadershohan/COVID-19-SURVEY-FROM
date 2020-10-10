@@ -4,7 +4,8 @@ import './Health-trips.css'
 class HealthTrips extends Component {
     render() {
         return (
-            <div className="health-trips ">
+            <div className="health-trips-img">
+            <div className="health-trips">
                 <h1>Protect yourself and others from COVID-19</h1>
                 <ol>
                     <ul>
@@ -66,6 +67,7 @@ class HealthTrips extends Component {
                 </li>
                     </ul>
                 </ol>
+            </div>
             </div>
 
         );

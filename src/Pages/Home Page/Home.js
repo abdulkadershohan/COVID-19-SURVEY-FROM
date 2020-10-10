@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Home.css'
 import * as FiIcons from 'react-icons/fi';
 import CardUiMain from "../../Components/Card/CardUiMain";
+import Bike from "../Bike/bike";
 
 export default class Home extends Component {
     render() {
@@ -46,6 +47,7 @@ export default class Home extends Component {
 
                     <CardUiMain/>
                 </div>
+                <Bike/>
 
 
 

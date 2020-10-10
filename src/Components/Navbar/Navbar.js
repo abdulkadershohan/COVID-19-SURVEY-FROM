@@ -14,7 +14,7 @@ class Navbar extends Component {
         return(
             <nav className="NavbarItems">
              <div className="btn btn-outline-success">
-                 <Link to={"/"} className="navbar-logo text-decoration-none"> COVIT-19 SURVEY FORM <i className="fab fa-react"></i></Link>
+                 <Link to={"/"} className="navbar-logo text-decoration-none"> COVID-19 SURVEY FORM <i className="fab fa-react"></i></Link>
              </div>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -26,7 +26,7 @@ class Navbar extends Component {
                             <li key={index}>
                                 <Link
                                     style={{
-                                        textDecoration:"gold",
+                                        textDecoration:"none",
 
                                     }}
                                     className={item.cName} to={item.path}>

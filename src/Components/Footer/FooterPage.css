@@ -1,10 +1,13 @@
 .a{
     font-weight: bold;
-    
+    position: relative;
+    bottom: 0;
 
 }
+
 .Link{
     color: #da0f0b;
+
 }
 .Link:hover{
     color: green;
@@ -24,7 +27,7 @@
 }
 .text-uppercase{
     color: #6d76f7;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 .about-links{
     text-decoration: none;
