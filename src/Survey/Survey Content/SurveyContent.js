@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import Question from "../question/Question";
 import Answer from "../answer/Answer";
 import './SurveyContent.css'
-import {Link} from "react-router-dom";
-import InputForm from "../../Components/Form/input-form";
+import MainResult from "../Survey Result/MainResult";
+
 
 
 export default class Quiz extends Component {
@@ -228,11 +228,7 @@ export default class Quiz extends Component {
                     </>) : (
                         <div className="finalPage">
                             <h1>You have completed the Survey!</h1>
-                               <h2>
-                                    Fill out the form below and click the submit button to report your information to the
-                                    appropriate authorities.</h2>
-                                <p>Note: All your information will be kept confidential.</p>
-                             <InputForm sendData={score}/>
+                               <MainResult sendData={score}/>
 
 
                         </div>

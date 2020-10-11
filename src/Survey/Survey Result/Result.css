@@ -1,0 +1,15 @@
+.result-green{
+    height: 100vh;
+    background: darkseagreen;
+    position: relative;
+}
+.result-avg{
+    height: 100vh;
+    background: yellow;
+    position: relative;
+}
+.result-danger{
+    height: 100vh;
+    background: red;
+    position: relative;
+}

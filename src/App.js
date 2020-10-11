@@ -14,6 +14,7 @@ import UsefulVideos from "./Pages/YoutubeVideos/UsefulVideos";
 import Team from "./Pages/About/About";
 import Developer from "./Pages/About/Developer/Developer";
 import HealthTrips from "./Pages/Health Trips/Health-trips";
+import InputForm from "./Components/Form/input-form";
 
 
 function App() {
@@ -35,7 +36,10 @@ function App() {
                         <Route exact path='/support' component={Support}/>
                         <Route exact path='/developer-contract' component={Developer}/>
                         <Route exact path='/health-trips' component={HealthTrips}/>
+                        <Route exact path='/input-form' component={InputForm}/>
+
                         <Route component={PageNotFound}/>
+
                     </Switch>
                     <footer>
                         <FooterPagePro/>

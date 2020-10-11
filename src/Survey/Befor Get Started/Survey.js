@@ -18,7 +18,7 @@ class Survey extends Component {
 
             </div>
                 <div className="Button">
-                <Link to="/survey/content" className="btn btn-outline-success justify-content-center">
+                <Link to="/input-form" className="btn btn-outline-success justify-content-center">
                     Get Started
                 </Link>
                 </div>

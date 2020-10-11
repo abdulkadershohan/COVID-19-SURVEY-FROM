@@ -50,24 +50,3 @@
     padding: 30px;
 
 }
-.input-form{
-
-    background:mistyrose;
-    padding: 30px;
-    margin: auto;
-
-}
-.input-form-content{
-display: flex;
-
-
-}
-@media screen and (max-width: 960px){
-    .input-form-content{
-
-        display: grid;
-
-    }
-
-
-}
