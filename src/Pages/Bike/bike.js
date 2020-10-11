@@ -4,7 +4,7 @@ class Bike extends Component {
     render() {
         return (
             <>
-                <body className="bike text-center">
+                <div className="bike text-center">
 
                 <svg className="bike" width="1058" height="785" viewBox="0 0 1058 785" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="undraw_Ride_a_bicycle_2yok 1" clip-path="url(#clip0)">
@@ -89,7 +89,7 @@ class Bike extends Component {
                 </svg>
 
 
-                </body>
+                </div>
             </>
         );
     }

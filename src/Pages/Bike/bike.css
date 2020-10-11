@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.bike{
 
-}
 #man-bike{
     animation: bike 1s ease-out infinite alternate;
     transform-origin: bottom;

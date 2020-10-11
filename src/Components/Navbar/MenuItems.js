@@ -5,12 +5,12 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'COVIT-19 HEALTH CHECKUP',
+        title: 'COVID-19 HEALTH CHECKUP',
         path: '/survey',
         cName: 'nav-links'
     },
     {
-        title: 'COVIT-19 LIVE STATUS',
+        title: 'COVID-19 LIVE STATUS',
         path: '/stats',
         cName: 'nav-links'
     },

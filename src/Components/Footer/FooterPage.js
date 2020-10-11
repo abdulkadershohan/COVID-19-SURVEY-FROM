@@ -96,7 +96,7 @@ const FooterPagePro = () => {
             <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
                     &copy; {new Date().getFullYear()} Copyright:{" "}
-                    <a href="/">COVIT-19-SURVEY-FORM</a>
+                    <a href="/">COVID-19-SURVEY-FORM</a>
                 </MDBContainer>
 
             </div>

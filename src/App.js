@@ -14,18 +14,11 @@ import UsefulVideos from "./Pages/YoutubeVideos/UsefulVideos";
 import Team from "./Pages/About/About";
 import Developer from "./Pages/About/Developer/Developer";
 import HealthTrips from "./Pages/Health Trips/Health-trips";
-import Bike from "./Pages/Bike/bike";
 
 
 function App() {
     return (
         <>
-            <html>
-            <head>
-
-            </head>
-
-                <body className="page-content">
 
                 <Router>
 
@@ -42,8 +35,7 @@ function App() {
                         <Route exact path='/support' component={Support}/>
                         <Route exact path='/developer-contract' component={Developer}/>
                         <Route exact path='/health-trips' component={HealthTrips}/>
-                        <Route exact path='/bike' component={Bike}/>
-                          <Route component={PageNotFound}/>
+                        <Route component={PageNotFound}/>
                     </Switch>
                     <footer>
                         <FooterPagePro/>
@@ -52,9 +44,6 @@ function App() {
                 </Router>
 
 
-                </body>
-
-            </html>
 
 
 
