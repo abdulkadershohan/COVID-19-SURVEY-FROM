@@ -1,6 +1,5 @@
 {
   "name": "my-app",
-   "homepage": "http://abdulkadershohan.github.io/covid-19-survey-form",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,8 +23,6 @@
     "styled-components": "^5.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
