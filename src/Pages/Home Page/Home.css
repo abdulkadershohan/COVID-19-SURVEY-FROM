@@ -1,7 +1,7 @@
 
 .useful-number{
 
-    border-style: outset;
+
     height: 8rem;
     list-style: none;
     padding: 10px 10px 10px 10px;
@@ -10,8 +10,9 @@
     color: darkred;
     display: flex;
     justify-content: space-between;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,221,233,1) 35%, rgba(0,212,255,1) 89%);
+
+    background: transparent;
+
 }
 .useful-number li{
     padding: 10px;

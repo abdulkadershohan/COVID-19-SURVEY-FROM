@@ -47,7 +47,7 @@ export default class Home extends Component {
 
                     <CardUiMain/>
                 </div>
-                <Bike/>
+
 
 
 
