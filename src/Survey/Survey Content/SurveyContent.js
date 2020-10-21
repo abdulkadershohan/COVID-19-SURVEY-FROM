@@ -205,7 +205,7 @@ export default class Quiz extends Component {
     render(){
         let { quiestions, answers, correctAnswer, clickedAnswer, step, score } = this.state;
         return(
-            <>
+            <div className="Content-1">
             <div className="Content">
                 {step <= Object.keys(quiestions).length ?
                     (<>
@@ -239,7 +239,7 @@ export default class Quiz extends Component {
 
             </div>
 
-            </>
+            </div>
 
         );
     }

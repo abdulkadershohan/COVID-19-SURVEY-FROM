@@ -1,9 +1,13 @@
 .warning-message{
-    color: tomato;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Calibri;
+    letter-spacing: 1px;
     text-align: center;
     font-size: 2rem;
     width: 100%;
     height: 100vh;
+    background-color:#161616 ;
    
 }
 .Button{

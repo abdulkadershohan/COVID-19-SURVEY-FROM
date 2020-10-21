@@ -5,7 +5,8 @@ class Developer extends Component {
 
             <div className="c-f-b container-fluid d-flex justify-content-center"
             style={{
-                height:"100vh"
+                height:"100vh",
+
             }}
             >
                 <div className="row">
