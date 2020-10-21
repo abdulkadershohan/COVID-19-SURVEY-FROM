@@ -5,8 +5,6 @@ import './FooterPage.css'
 const FooterPagePro = () => {
     return (
         <div className={"a"}>
-
-
         <MDBFooter color="mdb-color" className="container font-small lighten-3 pt-4 mt-4">
 
 

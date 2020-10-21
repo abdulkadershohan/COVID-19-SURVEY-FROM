@@ -8,6 +8,7 @@
     width: 30rem;
 }
 .card-a:hover{
+   transition: all 0.4s ease;
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,253)!important ;
 }
 .c-b{
@@ -38,4 +39,9 @@
         width: 100%;
     }
 
+}
+@media screen and (max-width: 1024px){
+    .card-a{
+        width: 100%;
+    }
 }

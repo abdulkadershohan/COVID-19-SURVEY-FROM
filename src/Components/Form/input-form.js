@@ -2,29 +2,41 @@ import React, {Component} from 'react';
 import './input-form.css'
 import {Link} from "react-router-dom";
 
+///  <button type="submit" className="submit-btn">Continue</button>
+//
 class InputForm extends Component {
+
+
     render() {
         return (
-            <div>
-                <div className="input-form ">
-                    <div className="input-form-2">
-                        <form action="" className="input-form-content p-5">
-                            <input name="name" type="text"  placeholder="Type your name here"/>
-                            <input name="phone" type="text"  placeholder="Mobile Number"/>
-                            <input name="division" type="text" placeholder="Division"/>
-                            <input name="city" type="text" placeholder="City"/>
-                            <input name="thana" type="text" placeholder="Thana"/>
-                            <div>
-                                <Link to="/survey/content">
-                                    <input className=" btn btn-outline-success button-submit " type="submit"/>
-                                </Link>
-
-                            </div>
-
-                        </form>
+            <div className="hero">
+                <div className="form-box">
+                    <div className="title">
+                        <h4>Fill out the Form to Continue</h4>
                     </div>
+                    <form id="login" className="input-group"  onSubmit={this.handleClick}>
+                        <input type="text" className="input-field" placeholder="Type your name here" required />
+                        <input type="text" className="input-field" placeholder="Mobile Number" required />
+                        <input type="text" className="input-field" placeholder="Division" required />
+                        <input type="text" className="input-field" placeholder="City" required />
+                        <input type="text" className="input-field" placeholder="Thana" required />
+
+                        <div className="submit-btn"
+                        style={{
+                            textDecoration:"none",
+                            alignItems:"center",
+                            justifyContent:"center",
+                            display:"flex"
+                        }}
+                        >
+                            <Link to="/survey/content" >Continue</Link>
+                        </div>
+
+                    </form>
+                </div>
             </div>
-            </div>
+
+
         );
     }
 }

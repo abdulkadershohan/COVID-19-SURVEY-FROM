@@ -1,2 +1,3 @@
 [0920/082844.720:ERROR:settings.cc(320)] Settings magic is not 1129342067
 [1004/074232.426:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[1018/024429.583:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

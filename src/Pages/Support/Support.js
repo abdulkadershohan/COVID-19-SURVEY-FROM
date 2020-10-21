@@ -18,7 +18,11 @@ export default class Support extends Component {
         return (
 
                 <div>
-                    <div className="container">
+                    <div className="container"
+                    style={{
+                        height:"100vh"
+                    }}
+                    >
                         <form onSubmit={this.sendEmail}>
                             <div className="row pt-5 mx-auto">
                                 <div className="col-8 form-group mx-auto">

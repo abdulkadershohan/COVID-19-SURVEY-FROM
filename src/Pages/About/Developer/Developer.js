@@ -3,7 +3,11 @@ class Developer extends Component {
     render() {
         return (
 
-            <div className="c-f-b container-fluid d-flex justify-content-center">
+            <div className="c-f-b container-fluid d-flex justify-content-center"
+            style={{
+                height:"100vh"
+            }}
+            >
                 <div className="row">
 
                     <div className="col-md-4">
