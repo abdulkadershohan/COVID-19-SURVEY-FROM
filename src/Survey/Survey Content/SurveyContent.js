@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Question from "../question/Question";
 import Answer from "../answer/Answer";
 import './SurveyContent.css'
-import MainResult from "../Survey Result/MainResult";
+import InputForm from "../../Components/Form/input-form";
 
 
 
@@ -228,7 +228,7 @@ export default class Quiz extends Component {
                     </>) : (
                         <div className="finalPage">
                             <h1>You have completed the Survey!</h1>
-                               <MainResult sendData={score}/>
+                               <InputForm sendData={score}/>
 
 
                         </div>
@@ -243,4 +243,5 @@ export default class Quiz extends Component {
 
         );
     }
+    //<MainResult sendData={score}/>
 }

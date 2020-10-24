@@ -17,11 +17,13 @@ class InputForm extends Component {
             phone:'',
             division:'',
             city:'',
-            thana:''
+            thana:'',
+            score:this.props.sendData,
 
         }
 
     }
+
     onChangeName(e){
         this.setState({
             name:e.target.value
@@ -55,6 +57,7 @@ class InputForm extends Component {
             division:this.state.division,
             thana:this.state.thana,
             city:this.state.city,
+          //  score:this.state.score
         }
 
         axios.post('/insert.php',obj)
@@ -74,48 +77,66 @@ class InputForm extends Component {
             phone:'',
             division:'',
             city:'',
-            thana:''
+            thana:'',
+            score:''
         })
-
 
     }
     render() {
+        let { score } = this.state;
+        let  toRender;
+        if(score<=1){
+            toRender= "/result-green";
+         }
+        else if(score===2){
+            toRender= "/result-avg";
+        }
+        else if(score>2 ){
+            toRender= "/result-danger";
+        }
+
         return (
-            <div className="hero">
-                <div className="form-box">
-                    <div className="title">
-                        <h4>Fill out the Form to Continue</h4>
+            <>
+                <div className="hero">
+                    <div className="form-box">
+                        <div className="title">
+                            <h4>Fill out the Form to Continue</h4>
+                        </div>
+                        <form id="login" className="input-group"  onSubmit={this.onSubmit}>
+                            <input type="text" className="input-field" placeholder="Type your name here" required
+                                   value={this.state.name}
+                                   onChange={this.onChangeName}
+                            />
+                            <input type="text" className="input-field" placeholder="Mobile Number" required
+                                   value={this.state.phone}
+                                   onChange={this.onChangePhone}
+                            />
+                            <input type="text" className="input-field" placeholder="Division" required
+                                   value={this.state.division}
+                                   onChange={this.onChangeDiv}
+                            />
+                            <input type="text" className="input-field" placeholder="City" required
+                                   value={this.state.city}
+                                   onChange={this.onChangeCity}
+                            />
+                            <input type="text" className="input-field" placeholder="Thana" required
+                                   value={this.state.thana}
+                                   onChange={this.onChangeThana}
+                            />
+                            <a href={toRender} style={{
+                                textDecoration:'none',
+                                marginLeft:'20%'
+                            }}>
+                                <button type="submit" className="submit-btn">Continue</button>
+                                Continue </a>
+
+                        </form>
                     </div>
-                    <form id="login" className="input-group"  onSubmit={this.onSubmit}>
-                        <input type="text" className="input-field" placeholder="Type your name here" required
-                               value={this.state.name}
-                               onChange={this.onChangeName}
-                        />
-                        <input type="text" className="input-field" placeholder="Mobile Number" required
-                               value={this.state.phone}
-                               onChange={this.onChangePhone}
-                        />
-                        <input type="text" className="input-field" placeholder="Division" required
-                               value={this.state.division}
-                               onChange={this.onChangeDiv}
-                        />
-                        <input type="text" className="input-field" placeholder="City" required
-                               value={this.state.city}
-                               onChange={this.onChangeCity}
-                        />
-                        <input type="text" className="input-field" placeholder="Thana" required
-                               value={this.state.thana}
-                               onChange={this.onChangeThana}
-                        />
 
-
-                            <button type="submit" className="submit-btn">Continue</button>
-
-
-                    </form>
                 </div>
 
-            </div>
+            </>
+
 
 
         );

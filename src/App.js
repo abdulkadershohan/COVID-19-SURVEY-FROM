@@ -15,6 +15,10 @@ import Team from "./Pages/About/About";
 import Developer from "./Pages/About/Developer/Developer";
 import HealthTrips from "./Pages/Health Trips/Health-trips";
 import InputForm from "./Components/Form/input-form";
+import ResultGreen from "./Survey/Survey Result/ResultGreen";
+import ResultDanger from "./Survey/Survey Result/ResultDanger";
+import ResultAvg from "./Survey/Survey Result/ResultAvg";
+import MainResult from "./Survey/Survey Result/MainResult";
 
 
 function App() {
@@ -37,6 +41,12 @@ function App() {
                         <Route exact path='/developer-contract' component={Developer}/>
                         <Route exact path='/health-trips' component={HealthTrips}/>
                         <Route exact path='/input-form' component={InputForm}/>
+
+                        <Route exact path='/result-green' component={ResultGreen}/>
+                        <Route exact path='/result-danger' component={ResultDanger}/>
+                        <Route exact path='/result-avg' component={ResultAvg}/>
+                        <Route exact path='/result' component={MainResult}/>
+
 
                         <Route component={PageNotFound}/>
 
