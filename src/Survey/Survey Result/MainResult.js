@@ -12,7 +12,6 @@ class MainResult extends Component {
         return (
             <div>
 
-
                     {score<=1 &&(<ResultGreen/>)}
                     {score===2 &&(<ResultAvg/>)}
                     {score>2  &&(<ResultDanger/>)}

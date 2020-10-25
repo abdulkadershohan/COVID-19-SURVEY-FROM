@@ -25,14 +25,16 @@ class InputForm extends Component {
     }
 
     onChangeName(e){
-        this.setState({
+      this.setState({
             name:e.target.value
         })
+
     }
     onChangePhone(e){
         this.setState({
             phone:e.target.value
         })
+
     }
     onChangeDiv(e){
         this.setState({
@@ -80,20 +82,31 @@ class InputForm extends Component {
             thana:'',
             score:''
         })
+        if(this.state.score<=1){
+            window.location.href=('/result-green')
+        }
+        else if(this.state.score===2){
+            window.location.href=('/result-avg')
+        }
+        else if(this.state.score>2){
+            window.location.href=('/result-danger')
+        }
+
+    }
+    onClickHandle=()=>{
+        if(this.state.score<=1)
+        {
+            sessionStorage.setItem("username","green")
+        }
+        else if(this.state.score===2){
+            sessionStorage.setItem("username","avg")
+        }
+        else if(this.state.score>2){
+            sessionStorage.setItem("username","danger")
+        }
 
     }
     render() {
-        let { score } = this.state;
-        let  toRender;
-        if(score<=1){
-            toRender= "/result-green";
-         }
-        else if(score===2){
-            toRender= "/result-avg";
-        }
-        else if(score>2 ){
-            toRender= "/result-danger";
-        }
 
         return (
             <>
@@ -103,32 +116,29 @@ class InputForm extends Component {
                             <h4>Fill out the Form to Continue</h4>
                         </div>
                         <form id="login" className="input-group"  onSubmit={this.onSubmit}>
-                            <input type="text" className="input-field" placeholder="Type your name here" required
+                            <input name="name" type="text" className="input-field" placeholder="Type your name here" required
                                    value={this.state.name}
                                    onChange={this.onChangeName}
                             />
-                            <input type="text" className="input-field" placeholder="Mobile Number" required
+                            <input name="phone" type="text" className="input-field" placeholder="Mobile Number" required
                                    value={this.state.phone}
                                    onChange={this.onChangePhone}
                             />
-                            <input type="text" className="input-field" placeholder="Division" required
+                            <input name="division" type="text" className="input-field" placeholder="Division" required
                                    value={this.state.division}
                                    onChange={this.onChangeDiv}
                             />
-                            <input type="text" className="input-field" placeholder="City" required
+                            <input name="city" type="text" className="input-field" placeholder="City" required
                                    value={this.state.city}
                                    onChange={this.onChangeCity}
                             />
-                            <input type="text" className="input-field" placeholder="Thana" required
+                            <input name="thana" type="text" className="input-field" placeholder="Thana" required
                                    value={this.state.thana}
                                    onChange={this.onChangeThana}
                             />
-                            <a href={toRender} style={{
-                                textDecoration:'none',
-                                marginLeft:'20%'
-                            }}>
-                                <button type="submit" className="submit-btn">Continue</button>
-                                Continue </a>
+
+                                <button onClick={this.onClickHandle} type="submit" className="submit-btn">Continue</button>
+
 
                         </form>
                     </div>
