@@ -1,4 +1,4 @@
-.a{
+.footer{
     font-weight: bold;
     position: relative;
     bottom: 0;
@@ -8,10 +8,6 @@
     width: 100%;
 }
 
-.Link{
-    color: #da0f0b;
-
-}
 .Link:hover{
     color: green;
 

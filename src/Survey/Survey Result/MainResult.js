@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import ResultDanger from "../../Survey/Survey Result/ResultDanger";
-import ResultAvg from "../../Survey/Survey Result/ResultAvg";
-import ResultGreen from "../../Survey/Survey Result/ResultGreen";
+import ResultDanger from "../../Survey/Survey Result/Danger/Danger";
+import ResultAvg from "../../Survey/Survey Result/Average/Average";
+import ResultGreen from "../../Survey/Survey Result/Green/Green";
 class MainResult extends Component {
 
 

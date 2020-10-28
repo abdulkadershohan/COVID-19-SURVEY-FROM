@@ -4,13 +4,13 @@ import './FooterPage.css'
 
 const FooterPagePro = () => {
     return (
-        <div className={"a"}>
+        <div className={"footer"}>
         <MDBFooter color="mdb-color" className="container font-small lighten-3 pt-4 mt-4">
 
 
 
             <MDBContainer className="text-center text-md-left">
-                <MDBRow className="my-4">
+                <MDBRow className="my-4 ">
                     <MDBCol md="2" lg="2">
                         <h5 className="text-uppercase mb-4 font-weight-bold">
                             Services

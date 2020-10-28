@@ -6,6 +6,15 @@
 }
 .card-body h4{
     color: white;
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-weight: 600;
+}
+.card-body p{
+
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-weight: 600;
 }
 .card-a{
     width: 30rem;

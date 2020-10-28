@@ -11,7 +11,7 @@ import {Link} from "react-router-dom";
                <div className="c-b card-body text-dark">
                    <h4 className="card-title">{props.title}</h4>
                    <p className="p-card-text text-secondary">{props.p}</p>
-                   <Link to={props.url} className="btn btn-outline-success">Learn More</Link>
+                   <a href={props.url} className="btn btn-outline-success">Learn More</a>
                </div>
             </div>
 

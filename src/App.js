@@ -15,9 +15,9 @@ import Team from "./Pages/About/About";
 import Developer from "./Pages/About/Developer/Developer";
 import HealthTrips from "./Pages/Health Trips/Health-trips";
 import InputForm from "./Components/Form/input-form";
-import ResultGreen from "./Survey/Survey Result/ResultGreen";
-import ResultDanger from "./Survey/Survey Result/ResultDanger";
-import ResultAvg from "./Survey/Survey Result/ResultAvg";
+import ResultGreen from "./Survey/Survey Result/Green/Green";
+import ResultDanger from "./Survey/Survey Result/Danger/Danger";
+import ResultAvg from "./Survey/Survey Result/Average/Average";
 import MainResult from "./Survey/Survey Result/MainResult";
 
 

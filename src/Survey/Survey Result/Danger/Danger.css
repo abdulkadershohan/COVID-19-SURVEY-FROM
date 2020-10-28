@@ -1,0 +1,22 @@
+.result-danger{
+    height: 100vh;
+    width: 100%;
+    background: red;
+    position: relative;
+}
+
+.danger-top h1,
+.danger-top p,
+.danger-top h3{
+    color: #f1f1f1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-weight: 600;
+}
+.hotline{
+    background: #f1f1f1;
+
+}

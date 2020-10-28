@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import emailjs from 'emailjs-com'
-
+import './Support.css'
 export default class Support extends Component {
 
     sendEmail=(e)=>{
@@ -18,7 +18,7 @@ export default class Support extends Component {
         return (
 
                 <div>
-                    <div className="container"
+                    <div className="container support"
                     style={{
                         height:"100vh"
                     }}
