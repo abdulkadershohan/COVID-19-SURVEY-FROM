@@ -21,6 +21,7 @@ const p3=[
     " You can see the Active Cases, Deaths and recover worldwide. By Searching you can know details about a particular countries. You can search also by scrolling."
 
 
+
 ]
 
 

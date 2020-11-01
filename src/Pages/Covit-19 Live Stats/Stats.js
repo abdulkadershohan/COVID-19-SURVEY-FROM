@@ -75,6 +75,10 @@ function Stats(){
 
     return (
         <div>
+             <span>
+                    <h3 className="text-center"><font color="#17d1ac">REFERENCE</font> <span><a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometers</a> </span></h3>
+                </span>
+
             <CardDeck>
                 <Card
                     bg="secondary" text="white"
@@ -120,7 +124,6 @@ function Stats(){
                 </Card>
             </CardDeck>
             <br/>
-
             <Form>
                 <Form.Group controlId="formGroupSearch">
                     <Form.Control type="text" placeholder="Search a country" onChange={e=>setSearchCountry(e.target.value)} />

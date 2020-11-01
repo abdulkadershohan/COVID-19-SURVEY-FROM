@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './input-form.css'
-import {Link} from "react-router-dom";
 import axios from 'axios'
 
 class InputForm extends Component {
@@ -59,7 +58,7 @@ class InputForm extends Component {
             division:this.state.division,
             thana:this.state.thana,
             city:this.state.city,
-          //  score:this.state.score
+            score:this.state.score
         }
 
         axios.post('/insert.php',obj)
@@ -128,7 +127,7 @@ class InputForm extends Component {
                                    value={this.state.division}
                                    onChange={this.onChangeDiv}
                             />
-                            <input name="city" type="text" className="input-field" placeholder="City" required
+                            <input name="city" type="text" className="input-field" placeholder="Zilla" required
                                    value={this.state.city}
                                    onChange={this.onChangeCity}
                             />
