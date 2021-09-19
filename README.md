@@ -2,9 +2,9 @@
 # ***Full Stack Completed Project ***
 
 ## Introduction:
-COVIT-19 SURVEY FROM is an online survey site that can take a survey from a user and gives feedback to the user. The user fetches some questionaries. The questionaries are symptoms of coronavirus. When the user completes questionaries and fill-up the form the system will feedback to them on the risk of coronavirus like high risk, medium risk, no risk, etc. If the risk is high then the system is giving him some additional feedback like provides some hotline numbers, hospital addresses, etc. If the risk is medium then give some health tips and tricks. If the risk level is normal or no risk then gives some messages and tips. This site also says the number of infected people in all the countries of the world.
+COVID-19 SURVEY FROM is an online survey site that can take a survey from a user and gives feedback to the user. The user fetches some questionaries. The questionaries are symptoms of coronavirus. When the user completes questionaries and fill-up the form the system will feedback to them on the risk of coronavirus like high risk, medium risk, no risk, etc. If the risk is high then the system is giving him some additional feedback like provides some hotline numbers, hospital addresses, etc. If the risk is medium then give some health tips and tricks. If the risk level is normal or no risk then gives some messages and tips. This site also says the number of infected people in all the countries of the world.
 
-##Preview The Live Project [Click here](https://covid-19-survey-form-2020.netlify.app/).
+## Preview The Live Project [Click here](https://covid-19-survey-form-2020.netlify.app/).
 
 ## Libraries and Framework:
 * Bootstrap
@@ -13,8 +13,8 @@ COVIT-19 SURVEY FROM is an online survey site that can take a survey from a user
 * Styled Component
 
 ## Language are used:
-* HTML5 
-* CSS 
+* HTML5
+* CSS
 * JavaScript
 
 ## Scripting Language: `PHP`
@@ -42,7 +42,7 @@ Required tools:
 * XAMPP
 
 copy `COVID-19-SURVEY-FROM` directory from `root\database` and paste it into `C:\xampp\htdocs`.
-  Open XAMPP and start MySQL server and go admin then create a new database name `mydb` then open `mydb (1)` from `COVID-19-SURVEY-FROM`
+Open XAMPP and start MySQL server and go admin then create a new database name `mydb` then open `mydb (1)` from `COVID-19-SURVEY-FROM`
 and copy `create table` command and run it. Again copy `INSERT` command and run.
 ###*Now Your Database is Ready.*
 Restart XAMPP and start Apache server and MySQL server.
