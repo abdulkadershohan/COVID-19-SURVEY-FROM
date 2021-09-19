@@ -49,5 +49,5 @@ Restart XAMPP and start Apache server and MySQL server.
 
 *** ENJOY ***
 ### Project Screenshot
-![Screenshot](screencapture)
+![Screenshot](screencapture.png)
 
